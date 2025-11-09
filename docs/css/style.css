@@ -5,3 +5,8 @@
         p{
             font-size: 140%;
         }
+        #btn-1 {
+            background-color:slateblue;
+            color:black;
+            padding: 1%;
+        }
