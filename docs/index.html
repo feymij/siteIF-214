@@ -4,30 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="image/Nietzhe.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    
 
     <title>Nietzsche biography</title>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>
+    <div class="container border mt-5" >
+    <h1 class="text-center">
         Nietzsche biography site
     </h1>
-    <img src="image/Nietzhe.jpeg" width="20%">  
-    <h2>
+    <img class="" src="image/Nietzhe.jpeg" width="20%" > 
+        <h2>
       Books  
-    </h2>
-    <p>The Birth of Tragedy: Out of the Spirit of Music</p>
-    <p>The Gay Science</p>
-    <p>On the Genealogy of Morals</p>
-    <p>Beyond Good and Evil</p>
-    <p>Thus Spoke Zarathustra</p>
-    
+    </h2> 
+    <div class="row border text-center">
+        <div class="col-3 border text-center">
+            <p class="fw-bold fs-5">Thus Spoke Zarathustra</p>
+            <img class="" src="image/Thus Spoke Zarathustra.jpg" width="30%" > 
+            <p class="text-secondary text-start">
+This is a philosophical novel by German thinker Friedrich Nietzsche, which sets out his teachings, including the ideas of the superhuman, the “death of God,” and eternal recurrence. The narrative is told from the perspective of the fictional prophet Zarathustra, who, after ten years of seclusion, descends from the mountains to preach his ideas to the people. The book is written in a poetic, aphoristic form and consists of four parts.
+
+            </p>
+        </div>
+ <div class="col-3 border text-center">
+     <p class="fw-bold fs-5">The Gay Science</p>
+ </div>
+ <div class="col-3  border text-center">
+<p class="fw-bold fs-5">Beyond Good and Evil</p>
+ </div>
+ <div class="col-3  border"><p class="fw-bold fs-5">The Birth of Tragedy: Out of the Spirit of Music</p>
+
+</div>
+    </div>
     <input type="text" id="input-name" value="Mikhail" placeholder="input your name">
 
     <button id="btn-1">
         Information taken from wiki
     </button>
     <script src="js/script.js"></script>
+    </div>
 </body>
 </html>
