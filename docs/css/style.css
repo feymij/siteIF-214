@@ -1,3 +1,21 @@
+
+.row a p {
+    color: rgb(3, 3, 3);
+    transition: 0.2s;
+}
+
+
+.row a:hover p {
+    color: #494848; 
+}
+
+
+#target-section:target ~ .container .row a[href="#target-section"] p,
+#target-section2:target ~ .container .row a[href="#target-section2"] p,
+#target-section3:target ~ .container .row a[href="#target-section3"] p,
+#target-section4:target ~ .container .row a[href="#target-section4"] p {
+    color: yellow; 
+}
 .custom-shadow{
     box-shadow: 10px 10px 10px black;
 }
