@@ -28,3 +28,23 @@ closeBtn.addEventListener('click', () => {
 lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) lightbox.style.display = 'none';
 });
+
+        const images2 = document.querySelectorAll('.gallery2 img');
+const lightbox2 = document.getElementById('lightbox2');
+const lightboxImg2 = document.getElementById('lightbox-img2');
+const closeBtn2 = document.querySelector('.close2');
+
+images.forEach(img => {
+    img.addEventListener('click', () => {
+        lightbox2.style.display = 'block';
+        lightboxImg2.src = img.src;
+    });
+});
+
+closeBtn.addEventListener('click', () => {
+    lightbox2.style.display = 'none';
+});
+
+lightbox2.addEventListener('click', (e) => {
+    if (e.target === lightbox2) lightbox2.style.display = 'none';
+});
